@@ -1,0 +1,183 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+/* header part */
+.logo{
+    color: white;
+    margin-top: 0.5%;
+    font-weight: bolder;
+}
+.logo .store{
+    color: red;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    padding: 5px;
+    z-index: 1000; 
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    font-family: 900;
+    text-decoration: none;
+}
+.navbar a:hover, .navbar a:active, .navbar a.selected {
+    
+    color: red;
+    text-decoration: underline;
+}
+.navbar a img {
+    width: 20px; 
+    height: 20px; 
+
+}
+.navbar a img:hover{
+    background-color:white;
+}
+/* end of header styling  */
+
+/* footer part */
+
+
+.footer {
+    padding: 10px 65px 10px 20px;
+    margin-top: 15px; 
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:0;
+}
+
+/* vertical text */
+.vertical-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    font-weight: 900;
+}
+  
+.vertical-text span {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+  
+.page-content{
+    padding-top: 8%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+
+}
+.htext{
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    color:black;
+    font-size: larger;
+    font-weight: 700;
+}
+.left-content{
+    color: red;
+    width: 30%;
+    background-color: rgb(2, 2, 2);
+}
+.right-content{
+    width: 70%;
+    margin: 10px;
+}
+
+
+hr{
+    color: black;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+
+/* styling box-content */
+.card-image{
+    width: 230px;
+    height: 170px;
+}
+.cards{
+    background-color: black;
+    padding: 20px;
+    width: 450px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px;
+    color: white;
+    font-weight: 700;
+}
+.box-content,.ceo ,.image-text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.txt{
+    width: 500px;
+    height: 250px;
+}
+.image1{
+    width: 500px;
+    height: 250px;
+}
+
+.loco{
+    color: red;
+}
+.location{
+    align-items: center;
+    margin-left: 20%;
+}
+.awrads{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+.comedian-list{
+    margin-left: 200px;
+    font-size: 15px;
+    font-weight: 800;
+}
+h6,h2,h3,h1,h4,h5{
+    font-size: 25px;
+    font-weight: 900;
+}
+.store{color: red;}
