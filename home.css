@@ -1,0 +1,243 @@
+
+html { scroll-behavior: smooth; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* header part */
+.logo{
+    color: white;
+    margin-top: 0.5%;
+    font-weight: bolder;
+}
+.logo .store{
+    color: red;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    padding: 5px;
+    z-index: 1000; /* Ensure the header stays on top of other content */
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    font-family: 900;
+    text-decoration: none;
+}
+.navbar a:hover, .navbar a:active, .navbar a.selected {
+    
+    color: red;
+    text-decoration: underline;
+}
+.navbar a img {
+    width: 20px; 
+    height: 20px; 
+
+}
+.navbar a img:hover{
+    background-color:white;
+}
+/* end of header styling  */
+
+
+/* Page content styling */
+.page-content { 
+    margin-top: 3%;
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+ }
+
+.left-content{
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: 2%;
+    position: fixed;
+    width: 450px;
+    height: 100%;
+    overflow-y: auto;
+    color: white;
+    z-index: 1000;
+}
+
+.typing-animation {
+    color: red;
+    overflow: hidden; /* Hide overflow */
+    white-space: nowrap; 
+    animation: typing 5s steps(40, end) infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0; 
+    }
+    to {
+      width: 100%; 
+    }
+  }
+  
+
+.right-content {
+    flex: 1;
+    padding-left: 50%; 
+    padding-top: 20px; 
+   
+}
+.right-content{
+    flex-wrap: wrap;
+  
+}
+.left-content{ width: 30%;}
+.right-content {
+    width: 50%;
+}
+.text-left{
+    width: 430px;
+}
+.nav2{
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: 700;
+}
+
+/* Styling right content */
+
+#comedians {
+    display: block;
+}
+#upcoming:target {
+    display: block;
+}
+
+.nav2 {
+    margin-bottom: 20px;
+}
+
+.nav2 a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    
+    
+}
+
+.nav2 a:hover {
+    
+    color:red;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+/* styling  box*/
+.items-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    margin-left: 15px;
+    align-items: center;
+}
+.box { 
+    margin-bottom: 20px; 
+    background-color: rgba(7, 6, 6, 0.411); 
+    color: white;
+    border-radius: 10px; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+.view{
+    color: red;
+    margin-left: auto;
+    font-size: 13px;
+}
+.view a:hover{
+    color:red;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.h {
+    display: flex;
+    justify-content: space-between;
+}
+.comedian-name {
+    margin-right: 230px; 
+}
+
+
+/* backgroud video */
+.video-bg {
+   
+    right: 0;
+    bottom: 0;    
+    z-index: -1000;
+}
+.content-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.video-bg {
+    position: fixed; /* Change position to fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire container */
+}
+.store{ color: red;}
+
+
+
+
+
+/* footer */
+
+
+.footer {
+    padding: 10px 65px 10px 20px;
+    margin-top: 15px; 
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:0;
+}
+.text-2 a{
+    text-decoration: none;
+   
+}
