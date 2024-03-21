@@ -269,3 +269,21 @@ video {
 .comment button:hover {
     background-color: #0056b3;
 }
+
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .video-container {
+        flex: 1 0 100%; /* Adjust for full width */
+    }
+
+    .contact-section {
+        flex: 1 0 100%; /* Adjust for full width */
+    }
+}
