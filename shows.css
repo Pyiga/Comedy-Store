@@ -5,36 +5,73 @@
     font-size: 'poppins', sans-serif;
 }
 body{
-    background-color: mediumslateblue;
+    background-color: rgb(28, 27, 29);
 }
 .wholecontent{
     background-color: rgb(71, 2, 2);
 }
 
-.contactus{
-    background-color: rgb(124, 5, 5);
-    color: white;
-    
-}
-.contactcontent1 {
-    display: flex;
+.contactus {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    justify-content: space-around;
-    
-    
-
 }
-.contactcontent1 a{
-    color: rgb(43, 226, 180);
+
+/* Heading style */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.contact-content {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.contact-section {
+    flex: 0 0 30%; 
+    margin-bottom: 20px;
+}
+
+.contact-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-section h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact-section p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contact-section p strong {
+    font-weight: bold;
+}
+
+/* Footer style */
+.content-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-footer a {
+    margin: 0 5px;
     text-decoration: none;
+    color: #333;
 }
-.contactcontent1 a :hover{
-    color: black;
-    text-decoration: underline;
 
+
+.content-footer a:hover {
+    color: #007bff;
 }
 
 .heading {
@@ -42,7 +79,7 @@ body{
     margin-bottom: 20px; 
 }
 
-/* footer */
+
 
 
 footer {

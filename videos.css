@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+/* header part */
+.logo{
+    color: white;
+    margin-top: 0.5%;
+    font-weight: bolder;
+}
+.logo .store{
+    color: red;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    padding: 5px;
+    z-index: 1000; 
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    font-family: 900;
+    text-decoration: none;
+}
+.navbar a:hover, .navbar a:active, .navbar a.selected {
+    
+    color: red;
+    text-decoration: underline;
+}
+.navbar a img {
+    width: 20px; 
+    height: 20px; 
+
+}
+.navbar a img:hover{
+    background-color:white;
+}
+/* design of the whole site */
+.wholesite{
+    background-color: #1d1c1c;
+}
+/* end of header styling  */
+
+
+/* styling of the upper image */
+
+.image {
+    width: 100%; 
+    height: 900px; 
+    background-image: url('images/commedy.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover; 
+    position: relative; /
+}
+/* footer */
+
+
+footer {
+    padding: 10px 65px 10px 20px;
+    margin-top: px; 
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:0;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.allvideos{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    margin: 20px;
+    border: darkorchid;
+    cursor: pointer;
+    justify-content: space-around;
+
+}
+.allvideos1{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    margin: 20px;
+    border: darkorchid;
+    cursor: pointer;
+    justify-content: space-around;
+}
+.allvideos2{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    margin: 20px;
+    border: darkorchid;
+    cursor: pointer;
+    justify-content: space-around;
+}
+.allvideos3{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    margin: 20px;
+    border: darkorchid;
+    cursor: pointer;
+    justify-content: space-around;
+}
+.allvideos4{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    margin: 20px;
+    border: darkorchid;
+    cursor: pointer;
+    justify-content: space-around;
+}
+.allvideos5{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    margin: 20px;
+    border: darkorchid;
+    cursor: pointer;
+    justify-content: space-around;
+}
+.allvideos6{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    margin: 20px;
+    border: darkorchid;
+    cursor: pointer;
+    justify-content: space-around;
+}
+
+.heading h1 {
+    margin: 0;
+}
+.video-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-container {
+    margin: 10px;
+    max-width: 300px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.comment{
+    width: 100%; 
+    height: 300px; 
+    background-image: url('images/commedy.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover; 
+    position: relative;
+}
+.contactus {
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.contact-section {
+    flex: 0 0 30%; 
+    margin-bottom: 20px;
+}
+
+.contact-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-section h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact-section p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contact-section p strong {
+    font-weight: bold;
+}
+
+
+.content-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-footer a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.content-footer a:hover {
+    color: #007bff;
+}
